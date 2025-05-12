@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header {
+    background: rgb(0,80,153);
+    background: linear-gradient(90deg, rgba(0,80,153,1) 0%, rgba(0,224,255,1) 50%, rgba(0,80,153,1) 100%);
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.intro, .services, .contact {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+footer {
+    background: rgb(0,80,153);
+    background: linear-gradient(90deg, rgba(0,80,153,1) 0%, rgba(0,224,255,1) 50%, rgba(0,80,153,1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.serviceimage{
+    height: 400px;
+    width: 100%;
+}
+.up{
+    position:static;
+}
